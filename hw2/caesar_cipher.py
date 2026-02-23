@@ -30,7 +30,6 @@ LETTER_FREQS = {
 }
 
 #I wrote this simple script to calculate phi's of the 1-grams and pick the maximum one.
-#Usage: python ./caesaer_cipher <encoded>
 
 def caesar_cipher(s, shift):
     result = ""
@@ -67,4 +66,5 @@ for i in range(26):
 print()
 print(f"Maximum likelihood: {max_phi:.3f} - {max_cipher} - key: {max_key}")
 
-
+#Usage: python ./caesaer_cipher <encoded>
+#Answer: COMPUTERSCIENCE, key = 19

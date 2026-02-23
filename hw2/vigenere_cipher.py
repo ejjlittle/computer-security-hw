@@ -118,3 +118,6 @@ print(f"Final result: {result}")
 
 #Usage: python ./vigenere_cipher.py <encoded_text> <max_periods_to_test> <period_to_test>
 #To get the correct answer: set period to test to 5
+#Answer: THE VIGENERE CIPHER IS A METHOD OF ENCRYPTING ALPHABETIC TEXT BY USING A SERIES
+#OF INTERWOVEN CAESAR CIPHERS BASED ON THE LETTERS OF A KEYWORD IT EMPLOYS A FORM OF 
+#POLYALPHABETIC SUBSTITUTION

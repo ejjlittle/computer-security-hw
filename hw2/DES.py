@@ -209,7 +209,9 @@ def decipher(encoded, keys):
         L = R
         F = f(R, keys[15 - i])
         R = xor_bits(L_temp, F)
-        print(f"f(R{i}, K{16 - i}) = {F}")
+        print(f"f(R{i+1}, K{16 - i}) = {F}")
+        print(f"L{i+1}: {L}")
+        print(f"R{i+1}: {R}")
 
     L_temp = L
     L = R
